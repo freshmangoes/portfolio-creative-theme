@@ -28,6 +28,7 @@
 			rel="stylesheet"
 			type="text/css"
 		/>
+		<link rel="stylesheet" type="text/css" href="./css/magnific-popup.css" />
 
 		<!-- Plugin CSS -->
 
@@ -73,12 +74,7 @@
 							<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
 						</li>
 						<li class="nav-item">
-							<a
-								class="nav-link"
-								href="./resume"
-								target="_blank"
-								>Resume</a
-							>
+							<a class="nav-link" href="./resume" target="_blank">Resume</a>
 						</li>
 					</ul>
 				</div>
@@ -118,11 +114,12 @@
 		<section id="portfolio">
 			<div class="container-fluid p-0">
 				<div class="row no-gutters">
-					<div class="col-lg-4 col-sm-6">
-						<a
+					<div class="col-lg-4 col-sm-6 portfolio-box">
+						<!-- <a
 							class="portfolio-box"
 							href="https://freshmangoes.github.io/project-1/"
-						>
+						> -->
+						<a href="#test-popup" class="open-popup-link"></a>
 							<img
 								class="img-fluid"
 								src="img/portfolio/thumbnails/brewery-browser.jpg"
@@ -133,7 +130,8 @@
 									Brewery Browser
 								</div>
 								<div class="project-name">
-									Vanilla HTML, CSS, Javascript/jQuery, Firebase, Mapbox CDN/APIs
+									Vanilla HTML, CSS, Javascript/jQuery, Firebase, Mapbox
+									CDN/APIs
 								</div>
 							</div>
 						</a>
@@ -233,16 +231,14 @@
 									Weekend Warrior
 								</div>
 								<div class="project-name">
-									NodeJS, Express, Handlebars, MySQL/Sequelize, HikingProject API, OpenWeather API
+									NodeJS, Express, Handlebars, MySQL/Sequelize, HikingProject
+									API, OpenWeather API
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6">
-						<a
-							class="portfolio-box"
-							href="https://moto-weather.herokuapp.com/"
-						>
+						<a class="portfolio-box" href="https://moto-weather.herokuapp.com/">
 							<img
 								class="img-fluid"
 								src="img/portfolio/thumbnails/motoweather-thumb.png"
@@ -253,7 +249,8 @@
 									MotoWeather
 								</div>
 								<div class="project-name">
-									NodeJS, React, react-map-gl, deck.gl, Mongo/Mongoose, Express, Mapbox APIs, Openweather API
+									NodeJS, React, react-map-gl, deck.gl, Mongo/Mongoose, Express,
+									Mapbox APIs, Openweather API
 								</div>
 							</div>
 						</a>
@@ -295,12 +292,19 @@
 			</div>
 		</footer>
 
+		<div id="test-popup" class="mfp-hide white-popup">
+			Popup Content
+		</div>
+
 		<!-- Bootstrap core JavaScript -->
 		<script src="vendor/jquery/jquery.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
 
 		<!-- Plugin JavaScript -->
 		<script src="vendor/jquery-easing/jquery.easing.js"></script>
+
+		<!-- Magnific popup core -->
+		<script src="js/magnific-popup.js"></script>
 
 		<!-- Custom scripts for this template -->
 		<script src="js/creative.js"></script>
