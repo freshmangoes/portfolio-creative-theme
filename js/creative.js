@@ -39,9 +39,4 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  $('.portfolio-box').magnificPopup({
-    src:'#test-popup'
-  });
-
-
 })(jQuery); // End of use strict
